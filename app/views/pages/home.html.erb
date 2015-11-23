@@ -9,9 +9,28 @@
         <!-- Amber is a student in web devepment with proficiency in Ruby and Rails languages.  She is currently studying in Denver, CO and will be seeking employment in the Pittsburgh area for the Spring of 2016. -->
       <!-- </center></p> -->
     <center><div class="btn-group">
-      <a href="/about" class="btn home-btn"><center>About Me</center></a>
+      <a class="modal-trigger waves-effect waves-light btn home-btn" href="#modal1">About Me</a>
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <h4><center>Amber Crawford</center></h4>
+                  <p><center><%="Student at Turing School of Software & Design"%></center></p>
+                  <br><hr class="intro-divider"><br>
+                  <div class="container">
+                    <p><center>
+                      Amber is a student in web devepment with proficiency in Ruby and Rails languages.  She is currently studying in Denver, CO and will be seeking employment in the Pittsburgh area for the Spring of 2016.
+                    </center></p>
+                  </div>
+                  <br><hr class="intro-divider"><br>
+                </div>
+              </div>
       <a href="https://github.com/amcrawford" class="btn home-btn"><center>GitHub</center></a>
-      <a href="mailto:amber.crawford.developer@gmail.com" class="btn home-btn"><i class="fa fa-envelope"></i> <span class="network-name">Contact</span></a>
+      <a href="#modal2" class="modal-trigger waves-effect waves-light btn home-btn">Contact</a>
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <b>Email:</b> amber.crawford.developer@gmail.com
+          </div>
+        </div>
+
     </div></center>
   </div>
 </div>

@@ -20,6 +20,7 @@ var loaded = function(){
 $(document).ready(function(){
     //  $('.slider').slider({full_width: true, interval: 7500});
      $(".button-collapse").sideNav();
+     $('.modal-trigger').leanModal();
    });
  }
 
