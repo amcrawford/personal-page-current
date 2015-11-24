@@ -22,6 +22,11 @@
    border-width: 1px;
    border-color: white;
  }
+
+ .about-btn{
+   background: black;
+ }
+
  .application-body{
   background-image: url("http://i.imgur.com/9HaTvlk.jpg");
   opacity: 0.97;
@@ -34,6 +39,11 @@
 .fancy-font{
   font-family: 'Lobster', serif;
   font-size: 72px;
+}
+
+.fancy-font-small{
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 20px;
 }
 
 #home-nav{
@@ -51,6 +61,10 @@
 
 .intro-divider {
   width: 120px;
+}
+
+.about-divider {
+  width: 240px;
 }
 
 .gallery-pic {
