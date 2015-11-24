@@ -11,22 +11,20 @@
 </head>
 <body class="application-body">
   <nav  role="navigation" id="home-nav">
-          <div class="nav-wrapper">
-              <ul id="nav-mobile" class="side-nav">
-                  <li><a href="/">home</a></li>
-                  <li><a href="/">resume</a></li>
-                  <li><a href="/">projects</a></li>
-              </ul>
-              <a href="#" data-activates="nav-mobile" class="button-collapse show-on-large" >
-                  <i class="mdi-navigation-menu"></i>
-              </a>
-          </div>
-      </nav>
+    <div class="nav-wrapper">
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="/">home</a></li>
+          <li><a href="/">resume</a></li>
+          <li><a href="/projects">projects</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse show-on-large" >
+          <i class="mdi-navigation-menu"></i>
+        </a>
+    </div>
+  </nav>
 
 <div class="container">
     <%= yield %>
 </div>
-
-
 </body>
 </html>
