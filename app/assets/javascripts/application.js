@@ -23,12 +23,6 @@ $(document).ready(function(){
      $('.modal-trigger').leanModal();
      $('.slider').slider({full_width: true, interval: 7500});
    });
-   jQuery.fn.redraw = function() {
-    return this.hide(0, function(){jQuery(this).show()});
-};
-jQuery(document).ready(function() {
-    jQuery('body').redraw();
-});
  }
 
 
