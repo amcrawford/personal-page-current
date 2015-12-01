@@ -24,5 +24,11 @@ $(document).ready(function(){
      $('.slider').slider({full_width: true, interval: 7500});
    });
  }
+ jQuery.fn.redraw = function() {
+    return this.hide(0, function(){jQuery(this).show()});
+};
+jQuery(document).ready(function() {
+    jQuery('body').redraw();
+});
 
  $(document).on("page:load ready", loaded);
