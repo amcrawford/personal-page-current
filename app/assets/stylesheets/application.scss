@@ -17,6 +17,16 @@
  @import "materialize";
  @import url(https://fonts.googleapis.com/css?family=Lobster);
 
+
+ .projects-body{
+  background: asset-url("7_copy.jpg") no-repeat center fixed;
+  opacity: 0.97;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
  .home-btn{
    background: transparent;
    border-style: solid;
