@@ -14,26 +14,43 @@
                 <!-- <div class="col s1 offset-s1" style="margin-left: 24px">
                   <img id="about-picture" src="http://i.imgur.com/085wTny.jpg">
                 </div> -->
-                <div>
-                  <h4><center>Amber Crawford</center></h4>
-                  <h6 class="fancy-font-small" style="bold-italic"><center><%="Student at Turing School of Software & Design"%></center></h6>
-                  <h6 class="fancy-font-small"><center>Denver, Colorado</center></h6>
-                </div>
-              <!-- </div> -->
+                    <h4><center>Amber Crawford</center></h4>
+                    <h6 class="fancy-font-small" style="bold-italic"><center><%="Full Stack Problem Solver"%></center></h6>
+                    <!-- <h6 class="fancy-font-small"><center>Denver, Colorado</center></h6> -->
+
                 <hr class="about-divider">
-                <div class="container">
-                  <p><center>
-                    I am a student in web development with proficiency in Ruby and Rails.<br>
-                    I am currently completing a seven-month program in web development and <br>
-                    design at the Turing School in Denver, Colorado and will graduate with <br>
-                    additional proficiency in Javascript and SQL in the Spring of 2016.
-                  </center></p>
-                  <hr class="about-divider">
-                  <center><div class="btn-group">
-                    <a href="http://www.linkedin.com/in/ambercrawford" class="btn about-btn black" target="_blank">LinkedIn</a>
-                    <a href="#modal2" class="modal-trigger waves-effect waves-light btn about-btn black">Contact</a>
+                <div class="row" style="padding-left: 36px; padding-top: 12px">
+                  <div class="row">
+                    <div class="col s2">
+                      <span><%= image_tag("code.png") %></span>
+                    </div>
+                    <div class="col s8" id="about-text">
+                        I am a full-stack web developer with a love for solving problems and a focus on Ruby, Rails and Javascript development.
+                    </div>
+                    <!-- <center><div class="btn-group">
+                      <a href="http://www.linkedin.com/in/ambercrawford" class="btn about-btn black" target="_blank">LinkedIn</a>
+                      <a href="#modal2" class="modal-trigger waves-effect waves-light btn about-btn black">Contact</a>
+                    </div> -->
                   </div>
-                </div><br>
+                  <div class="row">
+                    <div class="col s2">
+                      <%= image_tag("lion.png") %>
+                    </div>
+                    <div class="col s8" id="about-text">
+                        Outside of programming, I also have experience in business analytics and project management as well as non-profit development and have worked with several animal-focused groups wherein I directly handled lion, tiger, and bear populations - oh my!
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col s2">
+                      <%= image_tag("job.png") %>
+                    </div>
+                    <div class="col s8" id="about-text">
+                        I will graduate from the Turing School in March of 2016 and am excited to tackle new problems in the business world with a growing and innovative company in tech.  Feel free to contact me with any questions or just to talk shop!
+                    </div>
+                  </div>
+                  <hr class="about-divider">
+                </div>
             </div>
           </div>
         </div>
@@ -49,4 +66,7 @@
             </div><br>
           </div>
         </div>
+      </div>
+    </center>
+    </div>
 </div>
